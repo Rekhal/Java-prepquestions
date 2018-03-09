@@ -1,3 +1,7 @@
+
+/*
+ * Author Rekha
+ */
 package javainterview.practicequestion.forseelenium;
 
 public class PrintcommonnumbersinArray {
