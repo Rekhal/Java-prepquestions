@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testdataproviderssuite]">
+  <test name="dataproviderstest(failed)">
+    <classes>
+      <class name="selenium.southwestverifydataproviders">
+        <methods>
+          <include name="getbrowser"/>
+          <include name="flighttab" invocation-numbers="1"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- selenium.southwestverifydataproviders -->
+    </classes>
+  </test> <!-- dataproviderstest(failed) -->
+</suite> <!-- Failed suite [Testdataproviderssuite] -->

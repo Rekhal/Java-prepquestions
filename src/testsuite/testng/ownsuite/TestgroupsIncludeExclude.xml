@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testincludeexcludegroupssuite">
+<test name="includeexcludetest">
+<groups>
+<run>
+<!--  <include name="regression"></include>-->
+<!--  <exclude name="sanity2"></exclude>-->
+
+</run>
+
+</groups>
+
+<classes>
+<class name="selenium.IncludeExcludedroupstest">
+<methods>
+<include name="comparetitles"></include>
+
+</methods>
+
+</class>
+
+</classes>
+</test>
+
+
+</suite>
+

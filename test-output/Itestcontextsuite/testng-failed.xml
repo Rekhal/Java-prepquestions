@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Itestcontextsuite]">
+  <parameter name="password" value="rek23"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="username" value="rek"/>
+  <test name="testcontext(failed)">
+    <parameter name="password" value="rek23"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="username" value="rek"/>
+    <classes>
+      <class name="selenium.TestItestcontext">
+        <methods>
+          <include name="opendoc"/>
+          <include name="aftermethod"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- selenium.TestItestcontext -->
+    </classes>
+  </test> <!-- testcontext(failed) -->
+</suite> <!-- Failed suite [Itestcontextsuite] -->

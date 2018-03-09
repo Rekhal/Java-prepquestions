@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testincludeexcludegroupssuite]">
+  <test name="includeexcludetest(failed)">
+    <groups>
+      <run>
+        <exclude name="sanity2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="selenium.IncludeExcludedroupstest">
+        <methods>
+          <include name="comparetitles"/>
+          <include name="documentationtab"/>
+          <include name="downloadclick"/>
+          <include name="welcomeclick"/>
+          <include name="mavenclick"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- selenium.IncludeExcludedroupstest -->
+    </classes>
+  </test> <!-- includeexcludetest(failed) -->
+</suite> <!-- Failed suite [testincludeexcludegroupssuite] -->

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="firefoxgooglepagetest">
+<test name="googlepage">
+<classes>
+<class name="selenium.firefoxtest"></class>
+<class name="selenium.chromedrivertest"></class>
+</classes>
+</test>
+</suite>

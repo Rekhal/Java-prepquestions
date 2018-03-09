@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="check doubleparam">
+<test name="parameter check">
+<parameter name="username" value="rekha">
+<parameter name="password" value="rekha123">
+<classes>
+<class name="selenium.checkparamwithoptionalannotation">
+
+
+
+  </class>
+    </classes>
+    </parameter>
+    </parameter>
+      </test>
+        </suite>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="boahomepagesuite">
+<test name="boahomepage">
+<classes>
+<class name="selenium.boahomepage"></class>
+<class name="selenium.boahomepagecheckingtab"></class>
+
+
+
+</classes>
+</test>
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [gmailpagetestItestcontextsuite]">
+  <parameter name="gmailurl" value="https://www.google.com/gmail/about/"/>
+  <parameter name="password" value="tavish123"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="username" value="rekha.vajjha"/>
+  <test name="gmailpageItestcontexttest(failed)">
+    <parameter name="gmailurl" value="https://www.google.com/gmail/about/"/>
+    <parameter name="password" value="tavish123"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="rekha.vajjha"/>
+    <classes>
+      <class name="selenium.GmailloginpageItestcontext">
+        <methods>
+          <include name="logininfo"/>
+          <include name="signinlink"/>
+          <include name="opengmailurl"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- selenium.GmailloginpageItestcontext -->
+    </classes>
+  </test> <!-- gmailpageItestcontexttest(failed) -->
+</suite> <!-- Failed suite [gmailpagetestItestcontextsuite] -->

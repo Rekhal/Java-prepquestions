@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testparamsuite">
+<test name="testparam">
+<parameter name="username" value="rek"></parameter>
+<parameter name="password" value="rek23"></parameter>
+<classes>
+<class name="selenium.checkparameterpractice2"></class>
+</classes>
+</test>
+</suite>
